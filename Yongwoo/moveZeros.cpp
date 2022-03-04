@@ -1,8 +1,8 @@
-#New vector solution
-#Initialise a new vector
-#First push_back all non-zero ints into the new vector
-#Then push_back all zeros into the new vector
-#Assign original vector as new vector
+/*New vector solution
+Initialise a new vector
+First push_back all non-zero ints into the new vector
+Then push_back all zeros into the new vector
+Assign original vector as new vector*/
 
 class Solution {
 public:
@@ -27,11 +27,11 @@ public:
 };
 
 
-#Two-pointers solution
-#Initialise l and r with no values
-#Assign the index of the first zero in the vector to l and l+1 to r
-#if r is a non-zero int, switch the values of l and r, assign l as r and increment r by 1
-#else increment r by 1
+/*Two-pointers solution
+Initialise l and r with no values
+Assign the index of the first zero in the vector to l and l+1 to r
+if r is a non-zero int, switch the values of l and r, assign l as r and increment r by 1
+else increment r by 1*/
 
 class Solution {
 public:
